@@ -1,0 +1,306 @@
+﻿namespace SaleManagementWinApp
+{
+	partial class frmOrderDetail
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		#region Windows Form Designer generated code
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			dataGridView1 = new DataGridView();
+			btnBack = new Button();
+			panel2 = new Panel();
+			btnSubmit = new Button();
+			btnRefresh = new Button();
+			btnDelete = new Button();
+			btnEdit = new Button();
+			btnAdd = new Button();
+			panel1 = new Panel();
+			txtUnitPrice = new TextBox();
+			cbxDiscount = new ComboBox();
+			numQuantity = new NumericUpDown();
+			cbxProduct = new ComboBox();
+			label5 = new Label();
+			label4 = new Label();
+			label3 = new Label();
+			label2 = new Label();
+			txtId = new TextBox();
+			label1 = new Label();
+			((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+			panel2.SuspendLayout();
+			panel1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)numQuantity).BeginInit();
+			SuspendLayout();
+			// 
+			// dataGridView1
+			// 
+			dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			dataGridView1.Dock = DockStyle.Bottom;
+			dataGridView1.Location = new Point(0, 382);
+			dataGridView1.Margin = new Padding(3, 4, 3, 4);
+			dataGridView1.Name = "dataGridView1";
+			dataGridView1.RowHeadersWidth = 51;
+			dataGridView1.RowTemplate.Height = 25;
+			dataGridView1.Size = new Size(1064, 385);
+			dataGridView1.TabIndex = 17;
+			dataGridView1.CellClick += dataGridView1_CellClick;
+			// 
+			// btnBack
+			// 
+			btnBack.BackColor = Color.IndianRed;
+			btnBack.Location = new Point(942, 7);
+			btnBack.Margin = new Padding(3, 4, 3, 4);
+			btnBack.Name = "btnBack";
+			btnBack.Size = new Size(86, 31);
+			btnBack.TabIndex = 14;
+			btnBack.Text = "Cancel";
+			btnBack.UseVisualStyleBackColor = false;
+			btnBack.Click += btnBack_Click;
+			// 
+			// panel2
+			// 
+			panel2.BackColor = SystemColors.ControlLight;
+			panel2.Controls.Add(btnSubmit);
+			panel2.Controls.Add(btnRefresh);
+			panel2.Controls.Add(btnDelete);
+			panel2.Controls.Add(btnEdit);
+			panel2.Controls.Add(btnAdd);
+			panel2.Location = new Point(877, 57);
+			panel2.Margin = new Padding(3, 4, 3, 4);
+			panel2.Name = "panel2";
+			panel2.Size = new Size(151, 297);
+			panel2.TabIndex = 13;
+			// 
+			// btnSubmit
+			// 
+			btnSubmit.BackColor = SystemColors.GradientActiveCaption;
+			btnSubmit.Location = new Point(33, 22);
+			btnSubmit.Margin = new Padding(3, 4, 3, 4);
+			btnSubmit.Name = "btnSubmit";
+			btnSubmit.Size = new Size(86, 31);
+			btnSubmit.TabIndex = 4;
+			btnSubmit.Text = "Save";
+			btnSubmit.UseVisualStyleBackColor = false;
+			btnSubmit.Click += btnSubmit_Click;
+			// 
+			// btnRefresh
+			// 
+			btnRefresh.BackColor = Color.DarkGray;
+			btnRefresh.Location = new Point(33, 241);
+			btnRefresh.Margin = new Padding(3, 4, 3, 4);
+			btnRefresh.Name = "btnRefresh";
+			btnRefresh.Size = new Size(86, 31);
+			btnRefresh.TabIndex = 3;
+			btnRefresh.Text = "Reset";
+			btnRefresh.UseVisualStyleBackColor = false;
+			btnRefresh.Click += btnRefresh_Click;
+			// 
+			// btnDelete
+			// 
+			btnDelete.BackColor = Color.IndianRed;
+			btnDelete.Location = new Point(33, 184);
+			btnDelete.Margin = new Padding(3, 4, 3, 4);
+			btnDelete.Name = "btnDelete";
+			btnDelete.Size = new Size(86, 31);
+			btnDelete.TabIndex = 2;
+			btnDelete.Text = "Delete";
+			btnDelete.UseVisualStyleBackColor = false;
+			btnDelete.Click += btnDelete_Click;
+			// 
+			// btnEdit
+			// 
+			btnEdit.BackColor = Color.OrangeRed;
+			btnEdit.Location = new Point(33, 126);
+			btnEdit.Margin = new Padding(3, 4, 3, 4);
+			btnEdit.Name = "btnEdit";
+			btnEdit.Size = new Size(86, 31);
+			btnEdit.TabIndex = 1;
+			btnEdit.Text = "Edit";
+			btnEdit.UseVisualStyleBackColor = false;
+			btnEdit.Click += btnEdit_Click;
+			// 
+			// btnAdd
+			// 
+			btnAdd.BackColor = SystemColors.Highlight;
+			btnAdd.Location = new Point(33, 73);
+			btnAdd.Margin = new Padding(3, 4, 3, 4);
+			btnAdd.Name = "btnAdd";
+			btnAdd.Size = new Size(86, 31);
+			btnAdd.TabIndex = 0;
+			btnAdd.Text = "Add";
+			btnAdd.UseVisualStyleBackColor = false;
+			btnAdd.Click += btnAdd_Click;
+			// 
+			// panel1
+			// 
+			panel1.BackColor = SystemColors.ControlLight;
+			panel1.Controls.Add(txtUnitPrice);
+			panel1.Controls.Add(cbxDiscount);
+			panel1.Controls.Add(numQuantity);
+			panel1.Controls.Add(cbxProduct);
+			panel1.Controls.Add(label5);
+			panel1.Controls.Add(label4);
+			panel1.Controls.Add(label3);
+			panel1.Controls.Add(label2);
+			panel1.Controls.Add(txtId);
+			panel1.Controls.Add(label1);
+			panel1.Location = new Point(14, 44);
+			panel1.Margin = new Padding(3, 4, 3, 4);
+			panel1.Name = "panel1";
+			panel1.Size = new Size(447, 260);
+			panel1.TabIndex = 12;
+			// 
+			// txtUnitPrice
+			// 
+			txtUnitPrice.Location = new Point(161, 106);
+			txtUnitPrice.Margin = new Padding(3, 4, 3, 4);
+			txtUnitPrice.Name = "txtUnitPrice";
+			txtUnitPrice.Size = new Size(255, 27);
+			txtUnitPrice.TabIndex = 22;
+			// 
+			// cbxDiscount
+			// 
+			cbxDiscount.FormattingEnabled = true;
+			cbxDiscount.Location = new Point(160, 195);
+			cbxDiscount.Margin = new Padding(3, 4, 3, 4);
+			cbxDiscount.Name = "cbxDiscount";
+			cbxDiscount.Size = new Size(255, 28);
+			cbxDiscount.TabIndex = 21;
+			// 
+			// numQuantity
+			// 
+			numQuantity.Location = new Point(160, 155);
+			numQuantity.Margin = new Padding(3, 4, 3, 4);
+			numQuantity.Name = "numQuantity";
+			numQuantity.Size = new Size(256, 27);
+			numQuantity.TabIndex = 18;
+			// 
+			// cbxProduct
+			// 
+			cbxProduct.FormattingEnabled = true;
+			cbxProduct.Location = new Point(160, 60);
+			cbxProduct.Margin = new Padding(3, 4, 3, 4);
+			cbxProduct.Name = "cbxProduct";
+			cbxProduct.Size = new Size(255, 28);
+			cbxProduct.TabIndex = 2;
+			// 
+			// label5
+			// 
+			label5.AutoSize = true;
+			label5.Location = new Point(14, 205);
+			label5.Name = "label5";
+			label5.Size = new Size(67, 20);
+			label5.TabIndex = 12;
+			label5.Text = "Discount";
+			// 
+			// label4
+			// 
+			label4.AutoSize = true;
+			label4.Location = new Point(14, 157);
+			label4.Name = "label4";
+			label4.Size = new Size(65, 20);
+			label4.TabIndex = 10;
+			label4.Text = "Quantity";
+			// 
+			// label3
+			// 
+			label3.AutoSize = true;
+			label3.Location = new Point(14, 109);
+			label3.Name = "label3";
+			label3.Size = new Size(72, 20);
+			label3.TabIndex = 8;
+			label3.Text = "Unit Price";
+			// 
+			// label2
+			// 
+			label2.AutoSize = true;
+			label2.Location = new Point(14, 65);
+			label2.Name = "label2";
+			label2.Size = new Size(60, 20);
+			label2.TabIndex = 6;
+			label2.Text = "Product";
+			// 
+			// txtId
+			// 
+			txtId.Location = new Point(160, 15);
+			txtId.Margin = new Padding(3, 4, 3, 4);
+			txtId.Name = "txtId";
+			txtId.Size = new Size(255, 27);
+			txtId.TabIndex = 1;
+			// 
+			// label1
+			// 
+			label1.AutoSize = true;
+			label1.Location = new Point(14, 25);
+			label1.Name = "label1";
+			label1.Size = new Size(22, 20);
+			label1.TabIndex = 0;
+			label1.Text = "Id";
+			// 
+			// frmOrderDetail
+			// 
+			AutoScaleDimensions = new SizeF(8F, 20F);
+			AutoScaleMode = AutoScaleMode.Font;
+			BackColor = SystemColors.GradientInactiveCaption;
+			ClientSize = new Size(1064, 767);
+			Controls.Add(dataGridView1);
+			Controls.Add(btnBack);
+			Controls.Add(panel2);
+			Controls.Add(panel1);
+			Margin = new Padding(3, 4, 3, 4);
+			Name = "frmOrderDetail";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "frmOrderDetail";
+			Load += frmOrderDetail_Load;
+			((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+			panel2.ResumeLayout(false);
+			panel1.ResumeLayout(false);
+			panel1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)numQuantity).EndInit();
+			ResumeLayout(false);
+		}
+
+		#endregion
+
+		private DataGridView dataGridView1;
+		private Button btnBack;
+		private Panel panel2;
+		private Button btnRefresh;
+		private Button btnDelete;
+		private Button btnEdit;
+		private Button btnAdd;
+		private Panel panel1;
+		private ComboBox cbxProduct;
+		private Label label5;
+		private Label label4;
+		private Label label3;
+		private Label label2;
+		private TextBox txtId;
+		private Label label1;
+		private ComboBox cbxDiscount;
+		private NumericUpDown numQuantity;
+		private Button btnSubmit;
+		private TextBox txtUnitPrice;
+	}
+}

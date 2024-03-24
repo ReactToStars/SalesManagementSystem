@@ -1,0 +1,12 @@
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\bin\Debug\net6.0\DataAccessObjects.deps.json
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\bin\Debug\net6.0\DataAccessObjects.dll
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\bin\Debug\net6.0\DataAccessObjects.pdb
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.AssemblyInfo.cs
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.dll
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\refint\DataAccessObjects.dll
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\DataAccessObjects.pdb
+D:\Bita\Ass02Solution_ClassCode_StudentName\DataAccessObjects\obj\Debug\net6.0\ref\DataAccessObjects.dll
